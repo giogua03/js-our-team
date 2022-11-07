@@ -35,6 +35,6 @@ console.log(gruppo);
 
 const eleSquares = document.querySelector('.squares');
 for (let i = 0; i<gruppo.length; i++){
-    eleSquares.innerHTML += `<div class="sq"><div class="sq-img"><img src="img/${gruppo[i].img}"></div><h4>${gruppo[i].name}</h4> <span>${gruppo[i].professione}</span>  </div>`
+    eleSquares.innerHTML += `<div class="sq"><img src="img/${gruppo[i].img}"><h4>${gruppo[i].name}</h4> <span>${gruppo[i].professione}</span>  </div>`
     
 }
